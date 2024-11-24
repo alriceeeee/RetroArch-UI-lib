@@ -3,7 +3,7 @@ local function LoadURL(URL)
     return loadstring(game:HttpGet(URL))()
 end
 
-local RetroArch = LoadURL("https://raw.githubusercontent.com/[username]/[repository]/[branch]/RetroArch.lua") -- Replace with actual GitHub URL
+local RetroArch = LoadURL("https://raw.githubusercontent.com/alriceeeee/RetroArch-UI-lib/refs/heads/main/source.lua")
 
 local ui = RetroArch.new("RetroArch Menu")
 
